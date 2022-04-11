@@ -8,3 +8,17 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+
+h2 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
