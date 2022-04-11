@@ -1,16 +1,22 @@
 body {
-    background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+    background-image: linear-gradient(to right, #bdc3c7, #48739e);
     font-family: sans-serif;
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     margin-top: 50px;
 }
 
+div {
+    margin-top: 50px;
+    
+}
+
 h2 {
     text-align: center;
+    font-weight: 300;
 }
 
 input {
@@ -22,3 +28,11 @@ input {
     border-style: none;
 }
 
+button {
+    background-color: #37597a;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    margin-left: 680px;
+    padding: 5px 10px;
+}
