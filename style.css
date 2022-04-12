@@ -45,5 +45,8 @@ button {
     border-left: 60px solid #37597a;
     grid-column-start: 1;
     margin: auto 500px;
-    
+}
+
+button:hover{
+    cursor: pointer;
 }

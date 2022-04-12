@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Triângulos</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -10,10 +11,10 @@
     <div class="areaTexto">
         <h2>Digite as medidas</h2>
         <div class="triangle"></div>
-        <input type="number" placeholder="Digite medida 1">
-        <input type="number" placeholder="Digite medida 2">
-        <input type="number" placeholder="Digite medida 3">
-        <button>Enviar</button>
+        <input type="number" id="number1" placeholder="Digite medida 1">
+        <input type="number" id="number2" placeholder="Digite medida 2">
+        <input type="number" id="number3" placeholder="Digite medida 3">
+        <button type="button" onclick="enviarDados()">Enviar</button>
         
     </div>
 
