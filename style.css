@@ -36,8 +36,8 @@ button {
     padding: 5px 10px;
 }
 
-.triangle {
-    display: inline-block;
+/* .triangle {
+    display: none;
     width: 0; 
     height: 0; 
     border-top: 60px solid transparent;
@@ -45,7 +45,7 @@ button {
     border-left: 60px solid #37597a;
     grid-column-start: 1;
     margin: auto 500px;
-}
+} */
 
 button:hover{
     cursor: pointer;
