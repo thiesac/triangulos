@@ -28,11 +28,12 @@ input {
 }
 
 button {
+    display: block;
     background-color: #37597a;
     border-radius: 3px;
     border-style: none;
     color: white;
-    margin-left: 680px;
+    margin: auto;
     padding: 5px 10px;
 }
 
